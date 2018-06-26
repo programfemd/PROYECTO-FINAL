@@ -1,0 +1,168 @@
+<html>
+<head> <title> ProSolutions | Sitio web  </title>
+<style>
+body {
+  background-color: #E2FAC8;
+}
+
+.organigrama * {
+  margin: 0px;
+  padding: 0px;
+}
+
+.organigrama ul {
+	padding-top: 20px;
+  position: relative;
+}
+
+.organigrama li {
+	float: left;
+  text-align: center;
+	list-style-type: none;
+	padding: 20px 5px 0px 5px;
+  position: relative;
+}
+
+.organigrama li::before, .organigrama li::after {
+	content: '';
+	position: absolute;
+  top: 0px;
+  right: 50%;
+	border-top: 1px solid #f80;
+	width: 50%;
+  height: 20px;
+}
+
+.organigrama li::after{
+	right: auto;
+  left: 50%;
+	border-left: 1px solid #f80;
+}
+
+.organigrama li:only-child::before, .organigrama li:only-child::after {
+	display: none;
+}
+
+.organigrama li:only-child {
+  padding-top: 0;
+}
+
+.organigrama li:first-child::before, .organigrama li:last-child::after{
+	border: 0 none;
+}
+
+.organigrama li:last-child::before{
+	border-right: 1px solid #f80;
+	-webkit-border-radius: 0 5px 0 0;
+	-moz-border-radius: 0 5px 0 0;
+	border-radius: 0 5px 0 0;
+}
+
+.organigrama li:first-child::after{
+	border-radius: 5px 0 0 0;
+	-webkit-border-radius: 5px 0 0 0;
+	-moz-border-radius: 5px 0 0 0;
+}
+
+.organigrama ul ul::before {
+	content: '';
+	position: absolute;
+  top: 0;
+  left: 50%;
+	border-left: 1px solid #f80;
+	width: 0;
+  height: 20px;
+}
+
+.organigrama li a {
+	border: 1px solid #f80;
+	padding: 1em 0.75em;
+	text-decoration: none;
+	color: #333;
+  background-color: rgba(255,255,255,0.5);
+	font-family: arial, verdana, tahoma;
+	font-size: 0.85em;
+	display: inline-block;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  transition: all 500ms;
+}
+
+.organigrama li a:hover {
+	border: 1px solid #fff;
+	color: #ddd;
+  background-color: rgba(255,128,0,0.7);
+	display: inline-block;
+}
+
+.organigrama > ul > li > a {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.organigrama > ul > li > ul > li > a {
+  width: 8em;
+}
+</style>
+</head>
+<body>
+
+<font size="4" color="black" face="Malgun Gothic Semilight">
+<p>
+<font size="6" color="black" face="Castellar"> <center> <b> CONOCENOS </b> </center> </font> 
+<font size="4" color="FA8B05" face="Geometr212 BkCn BT"> <center> <b> ProSolutions </b> <font size="6" color="red" face="Lucida Handwriting"> #1 </font> </center> </font> 
+<img src="Chat.gif" align="RIGHT" width="450" height="300"> </img>
+<font size="5" color="black" face="Futura Bk BT"> <b> Misión: </b> </font> <br>
+Ofrecer soluciones de negocios que impulsen al Empresario mexicano en su incursión al mundo del Internet, a través de un servicio de alta calidad, tecnología confiable y
+con diseños innovadores. <br> <br>
+<font size="5" color="black" face="Futura Bk BT"> <b> Visión: </b> </font> <br>
+Ser una empresa competitiva y la mejor alternativa en Diseño Web para el empresario Mexicano que busca explotar las oportunidades que Internet le ofrece para impulsar su Negocio,
+en donde nuestra calidad se refleje en una excelente relación con nuestros clientes, y donde nuestra prosperidad se comparta entre nuestros empleados. <br> <br>
+<font size="5" color="black" face="Futura Bk BT"> <b> Valores </b> </font> <br>
+Nuestros valores sobre los que se sostiene esta estrategia de crecimiento y diferenciación en el servicio son:
+<ul>
+
+<li type="SQUARE"> <font size="4" color="black" face="Eras Demi ITC"> <b> Trabajo en equipo: </b> </font> 
+Promoviendo y apoyando un equipo homogéneo, polivalente e interdepartamental.
+
+<li type="SQUARE"> <font size="4" color="black" face="Eras Demi ITC"> <b> Colaboración: </b> </font> 
+Nos integramos con nuestros clientes para mejorar día a día la calidad con los mismos para satisfacer sus necesidades.
+
+<li type="SQUARE"> <font size="4" color="black" face="Eras Demi ITC"> <b> Integridad y Ética: </b> </font> 
+ Promovemos un compromiso social y cumplimos nuestra normativa interna.
+ 
+<li type="SQUARE"> <font size="4" color="black" face="Eras Demi ITC"> <b> Compromiso: </b> </font> 
+Cumplimos con nuestros compromisos y nos hacemos responsables de nuestro rendimiento en todas nuestras decisiones y acciones, basándonos en una gran voluntad de servicio 
+para nuestros clientes.
+</ul>
+<font size="5" color="black" face="Futura Bk BT"> <b> Objetivo: </b> </font> <br>
+Garantizar soluciones estables y de alto desempeño cumpliendo las expectativas de nuestros clientes en cada proyecto a desarrollar. <br> <br>
+<font size="5" color="black" face="Futura Bk BT"> <center> <b> Organigrama empresarial </b> </center> </font> <br>
+<img src="orga.png" align="RIGHT" width="450" height="300"> </img>
+</p>
+</font>
+
+<div class="organigrama">
+    <ul>
+        <li>
+          <a href="yo.png" target="new"> <img src="yof.jpg" width="65" height="80"> <br> Director <br> Ing. Vanessa Gómez </a>
+            <ul>
+                <li>
+                    <a href="nico.png" target="new"> <img src="nico.jpg" width="65" height="80"> <br> Director Ejecutivo <br> Ing. Nicole González </a>
+                </li>
+                <li>
+                    <a href="manuel.png" target="new"> <img src="manuel.JPG" width="70" height="80"> <br> Coordinador <br> Ing. Manuel Castillo </a>
+                </li>
+                <li><a href="karen.png" target="new"> <img src="karen.jpg" width="65" height="80"> <br> Diseñador <br> Lic. Karen Fuentes </a> </li>
+                <li><a href="yoav.png" target="new"> <img src="yov.jpg" width="65" height="80"> <br> DBA  <br> Lic. Yoav Sánchez </a> </li>
+                
+            </ul>
+        </li>
+    </ul>
+</div>
+
+</body>
+</html>
