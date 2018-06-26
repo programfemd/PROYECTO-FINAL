@@ -1,0 +1,186 @@
+body {
+background: #C8FAFA;
+}
+table {
+	font-size:18; 
+	font-family: Malgun Gothic Semilight;
+}
+
+.lista ol {
+list-style-type: decimal;
+}
+
+.navegacion {
+	width:1000px;
+	margin: 30px auto;
+	background: black;
+}
+.navegacion ul{
+	list-style: none;
+	margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.menu > li {
+position: relative;
+display: inline-block;
+}
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #FEFAFA;
+	font-family: CENTURY GOTHIC;
+	text-decoration: none;
+}
+.menu li a:hover {
+	color: yellow;
+	transition: all .3s;
+	
+}
+.taxo {
+	margin: 15px;
+  padding: 15px;
+}
+
+.taxo td {
+	font-size:18; 
+	font-family: Malgun Gothic Semilight;
+	border: 1px solid red;
+	border-collapse: collapse;
+	width: 25;
+	 
+}
+
+
+.submenu {
+	position: absolute;
+	background: gray;
+	width: 150%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Arial';
+	text-decoration: none;
+}	
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+	
+	
+}
+
+
+h1 {
+	color: #000;
+	text-align: center;
+}
+
+.galeria {
+	width: 90%;
+	margin: auto;
+	list-style: none;
+	padding: 20px;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.galeria li {
+	margin: 5px;
+}
+
+.galeria img {
+	width: 180px;
+	height: 180px;
+}
+
+.modal {
+	display: none;
+}
+
+.modal:target{
+	display: block;
+	position: fixed;
+	background: rgba(0,0,0,0.8);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.modal h3 {
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+	margin: 15px 0;
+}
+
+.imagen {
+	width:100%;
+	height: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.imagen a{
+	color: #fff;
+	font-size: 40px;
+	text-decoration: none;
+	margin: 0 10px;
+}
+.imagen a:nth-child(2) {
+	margin: 0;
+	height: 100%;
+	flex-shrink: 2;
+}
+
+.imagen img{
+	width: 500px;
+	height: 100%;
+	max-width: 100%;
+	border: 7px solid #fff;
+	box-sizing: border-box;
+}
+.cerrar {
+	display: block;
+	background: #fff;
+	width: 25px;
+	height: 25px;
+	margin: 15 px auto;
+	text-align: center;
+	text-decoration: none;
+	font-size: 25px;
+	color: #000;
+	padding: 5px;
+	border-radius: 50%;
+	line-height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
